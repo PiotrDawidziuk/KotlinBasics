@@ -11,7 +11,7 @@ fun main(args: Array<String>) {
     }
 
     for (num in 1..200){
-        if (num % 2 !   = 0){
+        if (num % 2 != 0){
             println(num)
         }
     }
