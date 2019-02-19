@@ -12,3 +12,7 @@ fun main(args: Array<String>) {
 
     println(sentence)
 }
+//Comments like in java
+/*
+other comments also like in java
+ */
