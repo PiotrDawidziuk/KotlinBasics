@@ -4,7 +4,16 @@ fun main(args: Array<String>) {
         println("hello world")
     }
 
-    for (x in 1..3){
-        hello()
+    fun greeting(name: String = "Anonymous"): String {
+        return "Good morning $name"
     }
+
+    for (x in 1..3){
+        println(greeting("Jake"))
+    }
+    println(greeting())
+
+    fun addNumbers (num1: Int, num2: Int) = num1 + num2
+
+    println(addNumbers(2,4))
 }
