@@ -8,5 +8,8 @@ fun main(args: Array<String>) {
     var c = radius * pi * 2
 
     println(c)
-    
+
+    weight += 3
+
+    println(weight)
 }
